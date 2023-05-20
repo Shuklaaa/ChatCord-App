@@ -72,3 +72,12 @@ function outputUsers(users){
   ${users.map(user => `<li>${user.username}</li>`).join('')}
   `;
 }
+
+// LEAVE THE CHAT BY CLICKING ON BUTTON
+document.getElementById('leave-btn').addEventListener('click', () => {
+  const leaveRoom = confirm('Are you sure you want to leave the chatroom?');
+  if (leaveRoom) {
+    window.location = './index.html';
+  } else {
+  }
+});
