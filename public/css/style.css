@@ -188,3 +188,17 @@ a {
 		display: none;
 	}
 }
+
+footer{
+	background-color: rgb(134 175 235);
+	text-decoration: underline;
+	color: black;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
